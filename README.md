@@ -1,5 +1,7 @@
 # lab2_2022
 
+[![Build Status](https://app.travis-ci.com/cbasguti/lab2_2022.svg?branch=main)](https://app.travis-ci.com/cbasguti/lab2_2022)
+
 Implementation of a Simple Calculator with the next operations:
 * Add
 * Minus
