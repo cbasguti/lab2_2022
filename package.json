@@ -4,7 +4,9 @@
   "description": "Calculator",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,12 @@
   "homepage": "https://github.com/cbasguti/lab2_2022#readme",
   "dependencies": {
     "chai": "^4.3.6",
+    "coveralls": "^3.1.1",
     "mocha": "^10.0.0",
     "readline-sync": "^1.4.10",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "istanbul": "^1.1.0-alpha.1"
   }
 }

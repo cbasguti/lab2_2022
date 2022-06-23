@@ -7,3 +7,5 @@ addons:
  sonarcloud: true
 script:
  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=cbasguti -Dsonar.projectKey=lab2_2022 -Dsonar.sources='./app' -X
+after_success:
+ - npm run coveralls
