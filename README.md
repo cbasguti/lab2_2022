@@ -4,6 +4,8 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lab2_2022&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lab2_2022)
 
+[![Coverage Status](https://coveralls.io/repos/github/cbasguti/lab2_2022/badge.svg)](https://coveralls.io/github/cbasguti/lab2_2022)
+
 Implementation of a Simple Calculator with the next operations:
 * Add
 * Minus
