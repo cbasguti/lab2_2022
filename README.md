@@ -2,6 +2,8 @@
 
 [![Build Status](https://app.travis-ci.com/cbasguti/lab2_2022.svg?branch=main)](https://app.travis-ci.com/cbasguti/lab2_2022)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lab2_2022&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lab2_2022)
+
 Implementation of a Simple Calculator with the next operations:
 * Add
 * Minus
