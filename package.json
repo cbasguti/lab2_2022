@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/cbasguti/lab2_2022#readme",
   "dependencies": {
-    "chai": "^4.3.6",
+    "chai": "^4.3.7",
     "coveralls": "^3.1.1",
     "mocha": "^10.0.0",
     "readline-sync": "^1.4.10",
